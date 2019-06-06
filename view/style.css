@@ -1,0 +1,229 @@
+html, body
+{
+  height: 100%;
+}
+
+body
+{
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header
+{
+  width: 98vw;
+  margin: 0;
+  padding: 0;
+}
+
+header ul
+{
+  list-style: none;
+  display: inline-block;
+}
+
+ul li
+{
+  display: inline-block;
+}
+
+ul:nth-of-type(2)
+{
+  float: right;
+  margin-right: 5%;
+  margin-top: 4.5vh;
+}
+
+h1
+{
+  color: #263238;
+}
+
+h2
+{
+  color: #37474F;
+}
+
+h3
+{
+  color: #DB0000;
+}
+
+main
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 98vw;
+}
+
+section
+{
+  background-color: #E7EAE1;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 20em;
+  height: 20em;
+}
+
+main > img{
+  width: 30em;
+}
+
+main > p{
+  font-weight: bolder;
+  font-family: "Comic Sans MS";
+  background-color: rgba(0, 0, 0, .4);
+}
+main > section > img, main > section{
+  position: absolute;
+}
+
+
+main > section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#segundos
+{
+  width: 0.5vw;
+  height: 30vh;
+  background-color: #72B7BC;
+}
+
+#ponteiroMinutos
+{
+  transform: rotate(25deg);
+}
+
+#ponteiroHoras
+{
+  transform: rotate(50deg);
+}
+
+#ponteiroSegundos
+{
+  transform: rotate(75deg);
+}
+
+
+footer
+{
+  color: #37474F;
+  width: 50vw;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  text-align: justify;
+}
+
+h4
+{
+  opacity: 0.3;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a img
+{
+  width: 2vw;
+  height: 4vh;
+  opacity: 0.7;
+}
+
+footer ul
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer li
+{
+  margin: 2%;
+}
+
+@media screen and (max-width: 425px)
+{
+  body
+  {
+    margin: 0;
+  }
+
+  header ul li
+  {
+    display: block;
+  }
+
+  h1
+  {
+    color: #caccc6;
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: 4vh;
+  }
+
+  h2
+  {
+    font-size: 10vw;
+    margin-top: 1vh;
+  }
+
+  ul:nth-of-type(2)
+  {
+    margin-top: 5vh;
+  }
+
+  #relogio
+  {
+    font-size: 5vw;
+  }
+
+  h3
+  {
+    text-align: right;
+    font-size: 4vw;
+    color: #db0000ad;
+  }
+
+  main
+  {
+    height: 60vh;
+  }
+
+  footer
+  {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  footer ul
+  {
+    margin-bottom: 2vh;
+  }
+
+  h4
+  {
+    opacity: 0.4;
+  }
+
+  a img
+  {
+    width: 10vw;
+  }
+}
