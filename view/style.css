@@ -36,7 +36,7 @@ ul:nth-of-type(2)
 
 h1
 {
-  color: #263238;
+  color: #caccc6;
 }
 
 h2
@@ -171,7 +171,6 @@ footer li
 
   h1
   {
-    color: #caccc6;
     font-size: 5vw;
     margin-bottom: 0;
     margin-top: 4vh;
